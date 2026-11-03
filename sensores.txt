@@ -1,0 +1,207 @@
+﻿LibreHardwareMonitor sensors detected: 162  (grupos: 14; LibreHardwareMonitor (HTTP))
+
+[BATTERY]
+  Voltages
+    Voltage                                            15,51 V   -> lhm.battery.battery_DELL-H4PVC26_1.voltage.voltage   (id /battery/DELL-H4PVC26_1/voltage/0)
+  Currents
+    Discharge Current                                   0,93 A   -> lhm.battery.battery_DELL-H4PVC26_1.discharge_current.current   (id /battery/DELL-H4PVC26_1/current/0)
+  Powers
+    Discharge Rate                                      14,5 W   -> lhm.battery.battery_DELL-H4PVC26_1.discharge_rate.power   (id /battery/DELL-H4PVC26_1/power/0)
+  Levels
+    Charge Level                                           95%   -> battery.lhm.charge_pct  *   (id /battery/DELL-H4PVC26_1/level/0)
+    Degradation Level                                      30%   -> battery.lhm.wear_pct  *   (id /battery/DELL-H4PVC26_1/level/1)
+  Times
+    Remaining Time (Estimated)                             2 s   -> lhm.battery.battery_DELL-H4PVC26_1.remaining_time_estimated.timespan   (id /battery/DELL-H4PVC26_1/timespan/0)
+  Capacities
+    Designed Capacity                               58.003 mWh   -> battery.lhm.design_mwh  *   (id /battery/DELL-H4PVC26_1/energy/0)
+    Fully-Charged Capacity                          40.310 mWh   -> lhm.battery.battery_DELL-H4PVC26_1.fully_charged_capacity.energy   (id /battery/DELL-H4PVC26_1/energy/1)
+    Remaining Capacity                              38.137 mWh   -> battery.lhm.remaining_mwh  *   (id /battery/DELL-H4PVC26_1/energy/2)
+
+[CPU]
+  Voltages
+    CPU Core                                            0,99 V   -> lhm.cpu.intelcpu_0.cpu_core.voltage   (id /intelcpu/0/voltage/0)
+    P-Core #1                                           0,97 V   -> lhm.cpu.intelcpu_0.p_core_1.voltage   (id /intelcpu/0/voltage/1)
+    P-Core #2                                           0,94 V   -> lhm.cpu.intelcpu_0.p_core_2.voltage   (id /intelcpu/0/voltage/2)
+    E-Core #1                                           0,96 V   -> lhm.cpu.intelcpu_0.e_core_1.voltage   (id /intelcpu/0/voltage/3)
+    E-Core #2                                           0,95 V   -> lhm.cpu.intelcpu_0.e_core_2.voltage   (id /intelcpu/0/voltage/4)
+    E-Core #3                                           0,94 V   -> lhm.cpu.intelcpu_0.e_core_3.voltage   (id /intelcpu/0/voltage/5)
+    E-Core #4                                           0,94 V   -> lhm.cpu.intelcpu_0.e_core_4.voltage   (id /intelcpu/0/voltage/6)
+    E-Core #5                                           0,94 V   -> lhm.cpu.intelcpu_0.e_core_5.voltage   (id /intelcpu/0/voltage/7)
+    E-Core #6                                           0,96 V   -> lhm.cpu.intelcpu_0.e_core_6.voltage   (id /intelcpu/0/voltage/8)
+    E-Core #7                                           0,97 V   -> lhm.cpu.intelcpu_0.e_core_7.voltage   (id /intelcpu/0/voltage/9)
+    E-Core #8                                           0,97 V   -> lhm.cpu.intelcpu_0.e_core_8.voltage   (id /intelcpu/0/voltage/10)
+  Powers
+    CPU Package                                          8,5 W   -> cpu.package_power_w  *   (id /intelcpu/0/power/0)
+    CPU Cores                                            4,7 W   -> cpu.core_power_w  *   (id /intelcpu/0/power/1)
+    CPU Memory                                           0,0 W   -> lhm.cpu.intelcpu_0.cpu_memory.power   (id /intelcpu/0/power/3)
+    CPU Platform                                        15,8 W   -> lhm.cpu.intelcpu_0.cpu_platform.power   (id /intelcpu/0/power/4)
+  Clocks
+    Bus Speed                                          100 MHz   -> lhm.cpu.intelcpu_0.bus_speed.clock   (id /intelcpu/0/clock/0)
+    P-Core #1                                        1.398 MHz   -> cpu.core_clock_mhz.1  *   (id /intelcpu/0/clock/1)
+    P-Core #2                                        3.095 MHz   -> cpu.core_clock_mhz.2  *   (id /intelcpu/0/clock/2)
+    E-Core #1                                        2.696 MHz   -> cpu.core_clock_mhz.1#3  *   (id /intelcpu/0/clock/3)
+    E-Core #2                                        2.696 MHz   -> cpu.core_clock_mhz.2#4  *   (id /intelcpu/0/clock/4)
+    E-Core #3                                        2.696 MHz   -> cpu.core_clock_mhz.3  *   (id /intelcpu/0/clock/5)
+    E-Core #4                                        2.696 MHz   -> cpu.core_clock_mhz.4  *   (id /intelcpu/0/clock/6)
+    E-Core #5                                        2.696 MHz   -> cpu.core_clock_mhz.5  *   (id /intelcpu/0/clock/7)
+    E-Core #6                                        1.298 MHz   -> cpu.core_clock_mhz.6  *   (id /intelcpu/0/clock/8)
+    E-Core #7                                        1.298 MHz   -> cpu.core_clock_mhz.7  *   (id /intelcpu/0/clock/9)
+    E-Core #8                                        1.198 MHz   -> cpu.core_clock_mhz.8  *   (id /intelcpu/0/clock/10)
+  Temperatures
+    Core Max                                              47┬░C   -> lhm.cpu.intelcpu_0.core_max.temperature   (id /intelcpu/0/temperature/0)
+    Core Average                                          43┬░C   -> lhm.cpu.intelcpu_0.core_average.temperature   (id /intelcpu/0/temperature/1)
+    P-Core #1                                             47┬░C   -> cpu.core_temp_c.1  *   (id /intelcpu/0/temperature/2)
+    P-Core #2                                             45┬░C   -> cpu.core_temp_c.2  *   (id /intelcpu/0/temperature/3)
+    E-Core #1                                             42┬░C   -> cpu.core_temp_c.1#4  *   (id /intelcpu/0/temperature/4)
+    E-Core #2                                             42┬░C   -> cpu.core_temp_c.2#5  *   (id /intelcpu/0/temperature/5)
+    E-Core #3                                             42┬░C   -> cpu.core_temp_c.3  *   (id /intelcpu/0/temperature/6)
+    E-Core #4                                             42┬░C   -> cpu.core_temp_c.4  *   (id /intelcpu/0/temperature/7)
+    E-Core #5                                             42┬░C   -> cpu.core_temp_c.5  *   (id /intelcpu/0/temperature/8)
+    E-Core #6                                             42┬░C   -> cpu.core_temp_c.6  *   (id /intelcpu/0/temperature/9)
+    E-Core #7                                             42┬░C   -> cpu.core_temp_c.7  *   (id /intelcpu/0/temperature/10)
+    E-Core #8                                             42┬░C   -> cpu.core_temp_c.8  *   (id /intelcpu/0/temperature/11)
+    CPU Package                                           50┬░C   -> cpu.package_temp_c  *   (id /intelcpu/0/temperature/12)
+    P-Core #1 Distance to TjMax                           53┬░C   -> lhm.cpu.intelcpu_0.p_core_1_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/13)
+    P-Core #2 Distance to TjMax                           55┬░C   -> lhm.cpu.intelcpu_0.p_core_2_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/14)
+    E-Core #1 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_1_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/15)
+    E-Core #2 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_2_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/16)
+    E-Core #3 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_3_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/17)
+    E-Core #4 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_4_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/18)
+    E-Core #5 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_5_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/19)
+    E-Core #6 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_6_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/20)
+    E-Core #7 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_7_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/21)
+    E-Core #8 Distance to TjMax                           58┬░C   -> lhm.cpu.intelcpu_0.e_core_8_distance_to_tjmax.temperature   (id /intelcpu/0/temperature/22)
+  Load
+    CPU Total                                              13%   -> cpu.lhm.util_pct  *   (id /intelcpu/0/load/0)
+    CPU Core Max                                           33%   -> lhm.cpu.intelcpu_0.cpu_core_max.load   (id /intelcpu/0/load/1)
+    CPU Core #1 Thread #1                                  22%   -> lhm.cpu.intelcpu_0.cpu_core_1_thread_1.load   (id /intelcpu/0/load/2)
+    CPU Core #1 Thread #2                                  28%   -> lhm.cpu.intelcpu_0.cpu_core_1_thread_2.load   (id /intelcpu/0/load/3)
+    CPU Core #2 Thread #1                                  25%   -> lhm.cpu.intelcpu_0.cpu_core_2_thread_1.load   (id /intelcpu/0/load/4)
+    CPU Core #2 Thread #2                                  33%   -> lhm.cpu.intelcpu_0.cpu_core_2_thread_2.load   (id /intelcpu/0/load/5)
+    CPU Core #3                                             2%   -> lhm.cpu.intelcpu_0.cpu_core_3.load   (id /intelcpu/0/load/6)
+    CPU Core #4                                             5%   -> lhm.cpu.intelcpu_0.cpu_core_4.load   (id /intelcpu/0/load/7)
+    CPU Core #5                                             3%   -> lhm.cpu.intelcpu_0.cpu_core_5.load   (id /intelcpu/0/load/8)
+    CPU Core #6                                             0%   -> lhm.cpu.intelcpu_0.cpu_core_6.load   (id /intelcpu/0/load/9)
+    CPU Core #7                                            16%   -> lhm.cpu.intelcpu_0.cpu_core_7.load   (id /intelcpu/0/load/10)
+    CPU Core #8                                            12%   -> lhm.cpu.intelcpu_0.cpu_core_8.load   (id /intelcpu/0/load/11)
+    CPU Core #9                                             9%   -> lhm.cpu.intelcpu_0.cpu_core_9.load   (id /intelcpu/0/load/12)
+    CPU Core #10                                            5%   -> lhm.cpu.intelcpu_0.cpu_core_10.load   (id /intelcpu/0/load/13)
+  (derivado)
+    CPU clock (media)                                2.047 MHz   -> cpu.clock_mhz  *   (id None)
+
+[NETWORK]
+  Load
+    Network Utilization                                     0%   -> lhm.network.nic_%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D.network_utilization.load   (id /nic/%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D/load/1)
+    Network Utilization                                     0%   -> lhm.network.nic_%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D.network_utilization.load   (id /nic/%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D/load/1)
+    Network Utilization                                     0%   -> lhm.network.nic_%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D.network_utilization.load   (id /nic/%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D/load/1)
+    Network Utilization                                     0%   -> lhm.network.nic_%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D.network_utilization.load   (id /nic/%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D/load/1)
+    Network Utilization                                     0%   -> lhm.network.nic_%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D.network_utilization.load   (id /nic/%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D/load/1)
+  Data
+    Data Uploaded                                      0,00 GB   -> lhm.network.nic_%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D.data_uploaded.data   (id /nic/%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D/data/2)
+    Data Downloaded                                    0,00 GB   -> lhm.network.nic_%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D.data_downloaded.data   (id /nic/%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D/data/3)
+    Data Uploaded                                      0,00 GB   -> lhm.network.nic_%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D.data_uploaded.data   (id /nic/%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D/data/2)
+    Data Downloaded                                    0,00 GB   -> lhm.network.nic_%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D.data_downloaded.data   (id /nic/%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D/data/3)
+    Data Uploaded                                      0,00 GB   -> lhm.network.nic_%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D.data_uploaded.data   (id /nic/%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D/data/2)
+    Data Downloaded                                    0,00 GB   -> lhm.network.nic_%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D.data_downloaded.data   (id /nic/%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D/data/3)
+    Data Uploaded                                      0,00 GB   -> lhm.network.nic_%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D.data_uploaded.data   (id /nic/%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D/data/2)
+    Data Downloaded                                    0,00 GB   -> lhm.network.nic_%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D.data_downloaded.data   (id /nic/%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D/data/3)
+    Data Uploaded                                      0,10 GB   -> lhm.network.nic_%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D.data_uploaded.data   (id /nic/%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D/data/2)
+    Data Downloaded                                    0,60 GB   -> lhm.network.nic_%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D.data_downloaded.data   (id /nic/%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D/data/3)
+  Throughput
+    Upload Speed                                      0,00 B/s   -> lhm.network.nic_%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D.upload_speed.throughput   (id /nic/%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D/throughput/7)
+    Download Speed                                    0,00 B/s   -> lhm.network.nic_%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D.download_speed.throughput   (id /nic/%7B1A7E9CB1-1000-4DF5-8951-59A71DA31906%7D/throughput/8)
+    Upload Speed                                      0,00 B/s   -> lhm.network.nic_%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D.upload_speed.throughput   (id /nic/%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D/throughput/7)
+    Download Speed                                    0,00 B/s   -> lhm.network.nic_%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D.download_speed.throughput   (id /nic/%7BACB7D78A-375C-40BA-9E7F-29805AC56084%7D/throughput/8)
+    Upload Speed                                      0,00 B/s   -> lhm.network.nic_%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D.upload_speed.throughput   (id /nic/%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D/throughput/7)
+    Download Speed                                    0,00 B/s   -> lhm.network.nic_%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D.download_speed.throughput   (id /nic/%7B344C553D-DF0B-4DF2-AA79-FB0814B8FCDC%7D/throughput/8)
+    Upload Speed                                      0,00 B/s   -> lhm.network.nic_%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D.upload_speed.throughput   (id /nic/%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D/throughput/7)
+    Download Speed                                    0,00 B/s   -> lhm.network.nic_%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D.download_speed.throughput   (id /nic/%7BF65D718B-2284-4357-A3EC-84BBD636BECB%7D/throughput/8)
+    Upload Speed                                      1,10 B/s   -> lhm.network.nic_%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D.upload_speed.throughput   (id /nic/%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D/throughput/7)
+    Download Speed                                    0,90 B/s   -> lhm.network.nic_%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D.download_speed.throughput   (id /nic/%7BA84851DF-7416-456A-A5E8-126DF60CAF36%7D/throughput/8)
+
+[OTHER]
+  Data
+    Capacity                                          16,00 GB   -> lhm.other.memory_dimm.capacity.data   (id /memory/dimm/2/data/50)
+    D3D Shared Memory Used                              772 MB   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_shared_memory_used.smalldata   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/smalldata/0)
+    D3D Shared Memory Free                            7.262 MB   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_shared_memory_free.smalldata   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/smalldata/1)
+    D3D Shared Memory Total                           8.034 MB   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_shared_memory_total.smalldata   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/smalldata/2)
+  Timings
+    tCKAVGmin (Minimum Cycle Time)                           1   -> lhm.other.memory_dimm.tckavgmin_minimum_cycle_time.timing   (id /memory/dimm/2/timing/20)
+    tCKAVGmax (Maximum Cycle Time)                           2   -> lhm.other.memory_dimm.tckavgmax_maximum_cycle_time.timing   (id /memory/dimm/2/timing/21)
+    tAA (CAS Latency Time)                                  14   -> lhm.other.memory_dimm.taa_cas_latency_time.timing   (id /memory/dimm/2/timing/22)
+    tRCD (RAS to CAS Delay Time)                            14   -> lhm.other.memory_dimm.trcd_ras_to_cas_delay_time.timing   (id /memory/dimm/2/timing/23)
+    tRP (Row Precharge Delay Time)                          14   -> lhm.other.memory_dimm.trp_row_precharge_delay_time.timing   (id /memory/dimm/2/timing/24)
+    tRAS (Active to Precharge Delay Time)                   32   -> lhm.other.memory_dimm.tras_active_to_precharge_delay_time.timing   (id /memory/dimm/2/timing/25)
+    tRC (Active to Active/Refresh Delay Time)               46   -> lhm.other.memory_dimm.trc_active_to_active_refresh_delay_time.timing   (id /memory/dimm/2/timing/26)
+    tRFC1 (Refresh Recovery Delay Time)                    350   -> lhm.other.memory_dimm.trfc1_refresh_recovery_delay_time.timing   (id /memory/dimm/2/timing/27)
+    tRFC2 (Refresh Recovery Delay Time)                    260   -> lhm.other.memory_dimm.trfc2_refresh_recovery_delay_time.timing   (id /memory/dimm/2/timing/28)
+    tRFC4 (Refresh Recovery Delay Time)                    160   -> lhm.other.memory_dimm.trfc4_refresh_recovery_delay_time.timing   (id /memory/dimm/2/timing/29)
+    tFAW (Four Activate Window Time)                        21   -> lhm.other.memory_dimm.tfaw_four_activate_window_time.timing   (id /memory/dimm/2/timing/30)
+    tRRD_S (Activate to Activate Delay Time)                 2   -> lhm.other.memory_dimm.trrd_s_activate_to_activate_delay_time.timing   (id /memory/dimm/2/timing/31)
+    tRRD_L (Activate to Activate Delay Time)                 5   -> lhm.other.memory_dimm.trrd_l_activate_to_activate_delay_time.timing   (id /memory/dimm/2/timing/32)
+    tCCD_L (CAS to CAS Delay Time)                           5   -> lhm.other.memory_dimm.tccd_l_cas_to_cas_delay_time.timing   (id /memory/dimm/2/timing/33)
+    tWR (Write Recovery Time)                               15   -> lhm.other.memory_dimm.twr_write_recovery_time.timing   (id /memory/dimm/2/timing/34)
+    tWTR_S (Write to Read Time)                              2   -> lhm.other.memory_dimm.twtr_s_write_to_read_time.timing   (id /memory/dimm/2/timing/35)
+    tWTR_L (Write to Read Time)                              8   -> lhm.other.memory_dimm.twtr_l_write_to_read_time.timing   (id /memory/dimm/2/timing/36)
+  Voltages
+    GPU Core                                            0,24 V   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.gpu_core.voltage   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/voltage/0)
+  Powers
+    GPU Power                                            0,0 W   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.gpu_power.power   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/power/0)
+  Clocks
+    GPU Core                                           300 MHz   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.gpu_core.clock   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/clock/0)
+  Load
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/0)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#1   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/1)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#2   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/2)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#3   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/3)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#4   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/4)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#5   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/5)
+    D3D                                                     0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d.load#6   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/6)
+    D3D 3D                                                  1%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_3d.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/7)
+    D3D Copy                                                0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_copy.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/8)
+    D3D Overlay                                             0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_overlay.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/9)
+    D3D Video Decode                                        0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_video_decode.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/10)
+    D3D Video Decode                                        0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_video_decode.load#11   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/11)
+    D3D Video Processing                                    0%   -> lhm.other.gpu-intel-integrated_%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D.d3d_video_processing.load   (id /gpu-intel-integrated/%5C%5C%3F%5CPCI%23VEN_8086%26DEV_4628%26SUBSYS_0B041028%26REV_0C%233%2611583659%260%2610%23%7B1ca05180-a699-450a-9a0c-de4fbe3ddd89%7D/load/12)
+
+[RAM]
+  Load
+    Memory                                                 52%   -> lhm.ram.vram_load.memory.load   (id /vram/load/1)
+    Memory                                                 74%   -> ram.lhm.util_pct  *   (id /ram/load/0)
+  Data
+    Memory Used                                       14,00 GB   -> lhm.ram.vram_data.memory_used.data   (id /vram/data/2)
+    Memory Available                                  13,20 GB   -> lhm.ram.vram_data.memory_available.data   (id /vram/data/3)
+    Memory Used                                       11,70 GB   -> ram.lhm.used_gb  *   (id /ram/data/0)
+    Memory Available                                   4,00 GB   -> ram.lhm.available_gb  *   (id /ram/data/1)
+
+[SSD]
+  Temperatures
+    Composite Temperature                                 49┬░C   -> lhm.ssd.nvme_0.composite_temperature.temperature   (id /nvme/0/temperature/0)
+    Temperature #1                                        69┬░C   -> lhm.ssd.nvme_0.temperature_1.temperature   (id /nvme/0/temperature/1)
+    Warning Temperature                                   79┬░C   -> lhm.ssd.nvme_0.warning_temperature.temperature   (id /nvme/0/temperature/10)
+    Critical Temperature                                  84┬░C   -> lhm.ssd.nvme_0.critical_temperature.temperature   (id /nvme/0/temperature/11)
+  Load
+    Used Space                                             34%   -> lhm.ssd.nvme_0.used_space.load   (id /nvme/0/load/30)
+    Read Activity                                           0%   -> lhm.ssd.nvme_0.read_activity.load   (id /nvme/0/load/51)
+    Write Activity                                         14%   -> lhm.ssd.nvme_0.write_activity.load   (id /nvme/0/load/52)
+    Total Activity                                         62%   -> lhm.ssd.nvme_0.total_activity.load   (id /nvme/0/load/53)
+  Levels
+    Life                                                   99%   -> lhm.ssd.nvme_0.life.level   (id /nvme/0/level/20)
+    Available Spare                                       100%   -> ssd.lhm.available_spare_pct  *   (id /nvme/0/level/100)
+    Available Spare Threshold                               5%   -> lhm.ssd.nvme_0.available_spare_threshold.level   (id /nvme/0/level/101)
+    Percentage Used                                         1%   -> ssd.lhm.percentage_used  *   (id /nvme/0/level/102)
+  Factors
+    Power On Count                                         145   -> lhm.ssd.nvme_0.power_on_count.factor   (id /nvme/0/factor/23)
+    Power On Hours                                         631   -> lhm.ssd.nvme_0.power_on_hours.factor   (id /nvme/0/factor/24)
+  Data
+    Data Read                                      3.324,00 GB   -> lhm.ssd.nvme_0.data_read.data   (id /nvme/0/data/21)
+    Data Written                                   2.695,00 GB   -> lhm.ssd.nvme_0.data_written.data   (id /nvme/0/data/22)
+    Free Space                                       168,00 GB   -> lhm.ssd.nvme_0.free_space.data   (id /nvme/0/data/31)
+    Total Space                                      256,10 GB   -> lhm.ssd.nvme_0.total_space.data   (id /nvme/0/data/32)
+  Throughput
+    Read Rate                                        32,00 B/s   -> lhm.ssd.nvme_0.read_rate.throughput   (id /nvme/0/throughput/54)
+    Write Rate                                       11,10 B/s   -> lhm.ssd.nvme_0.write_rate.throughput   (id /nvme/0/throughput/55)
+  (derivado)
+    Vida restante (100 - Percentage Used)                  99%   -> ssd.life_remaining_pct  *   (id None)
+
+* = mapeado para chave canonica; sem * = preservado como lhm.<categoria>.<hardware>.<sensor>.<tipo>

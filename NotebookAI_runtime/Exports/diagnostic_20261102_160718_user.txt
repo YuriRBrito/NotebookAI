@@ -1,0 +1,178 @@
+NotebookAI Diagnostic — v0.1.1-dev
+Data: 2026-11-02 16:06:52 | Python 3.15.2 | Windows-11-10.0.26200-SP0
+Processo elevado (administrador): NAO
+Coletando (3 amostras, ~6 s; contadores de taxa precisam de duas leituras)...
+
+CPU
+  CPU: 12th Gen Intel(R) Core(TM) i5-1235U   [fonte: Registro do Windows]
+  Utilizacao: 7%   [fonte: psutil (Windows)]
+  Package Temperature: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Core Temperatures: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Current Clock (media dos nucleos): N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Clock - Windows PDH (derivado): 1.300 MHz   [fonte: Windows PDH, calculated]  (derivado pelo Windows (base x % de desempenho); pode divergir do clock real)
+  Clock - psutil: 1.300 MHz   [fonte: psutil (Windows), reported]  (no Windows costuma ser a frequencia nominal, nao a instantanea)
+  Effective Clock: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Package Power: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Core Power: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  PL1: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  PL2: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Thermal Throttling: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Power Limit: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Current/EDP Limit: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Outros sensores: nenhum sensor LibreHardwareMonitor nao mapeado nesta categoria
+
+GPU
+  GPU: Intel(R) UHD Graphics   [fonte: Windows CIM]
+  GPU Utilization (Windows PDH): 0%   [fonte: Windows PDH, calculated]  (maior soma por tipo de engine (3D, Copy, Video...))
+  GPU Utilization (LibreHardwareMonitor): N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  GPU Clock: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  GPU Temperature: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  GPU Hot Spot: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  GPU Power: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Shared Memory em uso: 715 MB   [fonte: Windows PDH]
+  Dedicated Memory em uso: 0 MB   [fonte: Windows PDH]
+  Memoria (LibreHardwareMonitor): N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Throttling: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Outros sensores: nenhum sensor LibreHardwareMonitor nao mapeado nesta categoria
+
+RAM
+  Total: 15,69 GB   [fonte: Windows GetPerformanceInfo]
+  Used: 11,40 GB   [fonte: Windows GetPerformanceInfo]  (total - disponivel)
+  Available: 4,29 GB   [fonte: Windows GetPerformanceInfo]
+  Free: 0,35 GB   [fonte: Windows PDH]  (Free & Zero Page List (exclui cache em standby))
+  Committed: 13,50 GB   [fonte: Windows GetPerformanceInfo]
+  Commit Limit: 27,19 GB   [fonte: Windows GetPerformanceInfo]
+  Usage: 73%   [fonte: Windows GetPerformanceInfo, calculated]
+  Commit %: 50%   [fonte: Windows GetPerformanceInfo, calculated]
+  Pagefile (uso): 1%   [fonte: Windows PDH]
+  Pagefile (tamanho): 11.776 MB   [fonte: Windows CIM (PowerShell), reported]  (tamanho alocado no momento da leitura inicial)
+  Pagefile (usado): 132 MB   [fonte: Windows PDH + CIM, calculated]  (% de uso (PDH) x tamanho alocado (CIM))
+  Frequency: 3.200 MT/s   [fonte: Windows CIM (PowerShell), reported]  (informado pelo firmware (SMBIOS); nao e medido em tempo real)
+  Memory Clock (LibreHardwareMonitor): N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+
+SSD
+  Modelo: UP GAMER FAST PLUS 256GB  (SSD, NVMe)   [fonte: Get-PhysicalDisk]
+  Health (Windows): Healthy / OK   [fonte: Get-PhysicalDisk]
+  Capacidade: 256,06 GB   [fonte: Windows CIM (PowerShell), reported]  (Get-PhysicalDisk (GB decimais))
+  Temperatura: N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Leitura: 0,0 MB/s   [fonte: Windows PDH]
+  Escrita: 0,1 MB/s   [fonte: Windows PDH]
+  Atividade: 1%   [fonte: Windows PDH]  (PhysicalDisk(_Total), todos os discos)
+  Vida restante (LibreHardwareMonitor): N/D — sensor nao disponivel (LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>)
+  Outros sensores: nenhum sensor LibreHardwareMonitor nao mapeado nesta categoria
+
+Battery
+  Dispositivo: DELL H4PVC26 | Fabricante: BYD | Quimica: LiP  | Baterias: 1
+  Design Capacity: 58.003 mWh   [fonte: Windows Battery IOCTL]
+  Full Charge Capacity: 40.310 mWh   [fonte: Windows Battery IOCTL]
+  Current Capacity: 36.480 mWh   [fonte: Windows Battery IOCTL]
+    (a Battery API tem um unico campo; 'Current' e 'Remaining' sao o mesmo valor)
+  Charge level (Windows): 90%   [fonte: Windows GetSystemPowerStatus]
+  Charge calculado (Remaining/Full): 90%   [fonte: Windows IOCTL (calculado), calculated]
+  Health: 69%   [fonte: Windows IOCTL (calculado), calculated]  (Full Charge / Design)
+  Wear: 31%   [fonte: Windows IOCTL (calculado), calculated]  (100 - Health)
+  Voltage: 16.182 mV   [fonte: Windows Battery IOCTL]
+  Current: 688 mA   [fonte: Windows IOCTL (calculado), calculated]  (Rate(mW) / Voltage(mV), ambos instantaneos; sem medicao direta de corrente)
+  Rate: 11.133 mW   [fonte: Windows Battery IOCTL]  (positivo = carregando, negativo = descarregando)
+  Power: 11,1 W   [fonte: Windows Battery IOCTL, calculated]
+  Cycles: 0   [fonte: Windows Battery IOCTL]  (0 pode significar que o firmware nao informa ciclos)
+  Status: Charging   [fonte: Windows Battery IOCTL]
+  AC (Windows): YES   [fonte: Windows GetSystemPowerStatus]
+  AC (IOCTL): Connected   [fonte: Windows Battery IOCTL]
+  Estimated Remaining (IOCTL): N/D — sensor nao disponivel (nao encontrado entre os sensores/contadores detectados por Battery API)
+  Estimated Remaining (Windows): N/D — sensor nao disponivel (nao encontrado entre os sensores/contadores detectados por Battery API)
+  Estimated Remaining (linear): N/D — sensor nao disponivel (nao encontrado entre os sensores/contadores detectados por Battery API)
+  Estimated Time to Full (linear): 1.238 s   [fonte: Windows IOCTL (calculado), estimated]  ((Full - Remaining) / Rate no ritmo atual; a carga real desacelera perto de 100%)
+  Capacity: N/D — a Battery API entrega mWh, nao mAh. Converter exige a tensao NOMINAL do pacote, que a API nao informa; a tensao instantanea nao serve. Informe battery_nominal_voltage_mv na configuracao para obter 'Estimated mAh'.
+  Validacao cruzada com LibreHardwareMonitor: N/D — LibreHardwareMonitor UNAVAILABLE: LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>
+
+  Validacao dos 58.003 mWh
+    Design Capacity detectada: 58.003 mWh
+    Valor de referencia informado pelo usuario: 58.003 mWh
+    Diferenca: 0 mWh (0,00%)  -> coerente
+
+Foreground
+  Foreground: Visual Studio Code
+  Process: Code.exe   PID: 16224   Minimizada: nao
+  Path: C:\Users\User\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  Titulo da janela: 'NotebookAIAgent.py - notebookai - Visual Studio Code'   FileDescription: 'Visual Studio Code'
+  [fonte: Windows user32 + psutil]
+
+Processos (TOP 10 por CPU+GPU suavizados)
+  Aplicativo                      PID    CPU    GPU   RAM(WS)  FG   Estado Carga  Janela
+  Visual Studio Code             4136     1%     0%  2.285 MB  YES  ACTIVE LOW    visivel
+  Spotify                       17996     1%     0%    646 MB  NO   OPEN   LOW    minimizada
+  Python                        10828     1%     0%     49 MB  NO   OPEN   LOW    sem janela
+  Processo de Host para Servi    2052     0%     0%  1.441 MB  NO   OPEN   LOW    sem janela
+  Microsoft Defender Antimalw    5212     0%     0%    246 MB  NO   OPEN   LOW    sem janela
+  EpicGamesLauncher             13288     0%     0%    112 MB  NO   OPEN   LOW    sem janela
+  Gerenciador de Janelas da Á    1788     0%     0%     96 MB  NO   OPEN   LOW    sem janela
+  EOSOverlayRenderer            18512     0%     0%    270 MB  NO   OPEN   LOW    sem janela
+  Intel(R) System Usage Repor    2632     0%     0%     58 MB  NO   OPEN   LOW    sem janela
+  Dell Instrumentation's User   10532     0%     0%    124 MB  NO   OPEN   LOW    sem janela
+  (116 grupos de executaveis; 289 processos; 0 inacessiveis)   [fonte: psutil + PDH GPU Engine + user32]
+  RAM = working set (inclui memoria compartilhada); CPU = % do total de CPU.
+
+Event Log (ultimos 7 dias, log System)
+  Eventos relevantes: 6 (de 100 lidos) -> {'inicio_do_sistema': 2, 'encerramento_do_sistema': 2, 'shutdown_ou_restart_solicitado': 2}
+    2026-11-02 15:23  inicio_do_sistema (info)  Microsoft-Windows-Kernel-General #12
+    2026-11-02 12:57  encerramento_do_sistema (info)  Microsoft-Windows-Kernel-General #13
+    2026-11-02 12:56  shutdown_ou_restart_solicitado (info)  User32 #1074
+    2026-11-02 11:09  inicio_do_sistema (info)  Microsoft-Windows-Kernel-General #12
+    2026-11-02 02:01  encerramento_do_sistema (info)  Microsoft-Windows-Kernel-General #13
+  [fonte: wevtutil / Windows Event Log]
+
+============================================================
+NotebookAI Diagnostic Report
+============================================================
+
+LibreHardwareMonitor:
+[UNAVAILABLE] LibreHardwareMonitor.exe NAO esta em execucao; WMI: root/LibreHardwareMonitor: rc=1 sem saida | root/OpenHardwareMonitor: rc=1 sem saida; HTTP http://localhost:8085/data.json: <urlopen error [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente>
+
+Windows CPU collector:
+[OK]
+
+Windows RAM collector:
+[OK]
+
+Windows GPU collector:
+[OK]
+
+Windows SSD collector:
+[OK]
+
+Windows process collector:
+[OK]
+
+Foreground collector:
+[OK]
+
+Battery API:
+[OK]
+
+Event Log:
+[OK]
+
+SQLite:
+[OK]
+
+Interval engine:
+[OK]
+
+PresentMon:
+NOT IMPLEMENTED IN V0.1
+
+Precisa de administrador? (resultado desta execucao: SEM elevacao)
+  LibreHardwareMonitor: UNAVAILABLE   (expectativa: o LHM costuma precisar de administrador para ler CPU/SSD; o Agent so le WMI/HTTP e pode ficar sem elevacao (a verificar))
+  Windows CPU: OK   (expectativa: nao)
+  Windows RAM: OK   (expectativa: nao)
+  Windows GPU: OK   (expectativa: nao)
+  Windows SSD: OK   (expectativa: nao para atividade/vazao; saude/SMART pode exigir elevacao (a verificar))
+  Battery API: OK   (expectativa: nao (IOCTL em dispositivo de bateria costuma funcionar sem elevacao); a verificar)
+  Foreground: OK   (expectativa: nao (processos elevados podem negar o caminho; ha fallback por QueryLimitedInformation))
+  Processes: OK   (expectativa: nao (processos protegidos/de outro usuario ficam inacessiveis e sao contados))
+  Event Log: OK   (expectativa: nao para o log System (Security exigiria; nao usado); a verificar)
+  Rode o diagnostico uma vez normal e outra como administrador e compare os dois relatorios.
+
+Overall:
+PARTIALLY READY (coleta funciona, mas sem: LibreHardwareMonitor)
